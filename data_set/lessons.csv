@@ -1,0 +1,689 @@
+course_id,lesson_title,duration_minutes
+1,Best Practices,20
+1,Summary,43
+1,Case Study,32
+1,Best Practices,44
+1,Advanced Techniques,46
+1,Hands-on Demo,50
+1,Best Practices,59
+1,Core Concepts,40
+2,Core Concepts,37
+2,Core Concepts,59
+2,Summary,20
+2,Best Practices,40
+2,Hands-on Demo,55
+2,Hands-on Demo,59
+3,Core Concepts,56
+3,Summary,54
+3,Case Study,37
+3,Summary,25
+3,Case Study,22
+4,Case Study,25
+4,Best Practices,46
+4,Hands-on Demo,57
+4,Best Practices,47
+5,Introduction,25
+5,Best Practices,28
+5,Introduction,44
+5,Hands-on Demo,27
+5,Best Practices,47
+5,Case Study,36
+5,Introduction,48
+5,Advanced Techniques,43
+6,Introduction,51
+6,Summary,39
+6,Core Concepts,24
+7,Hands-on Demo,37
+7,Summary,43
+7,Core Concepts,52
+7,Best Practices,53
+7,Case Study,56
+7,Advanced Techniques,37
+7,Case Study,40
+7,Case Study,50
+8,Introduction,29
+8,Summary,38
+8,Introduction,58
+9,Advanced Techniques,28
+9,Hands-on Demo,60
+9,Summary,44
+9,Summary,35
+9,Hands-on Demo,52
+9,Introduction,48
+9,Case Study,21
+10,Introduction,22
+10,Core Concepts,49
+10,Best Practices,50
+11,Introduction,38
+11,Hands-on Demo,58
+11,Core Concepts,28
+11,Advanced Techniques,27
+11,Advanced Techniques,31
+11,Summary,52
+11,Hands-on Demo,41
+11,Core Concepts,30
+12,Case Study,34
+12,Hands-on Demo,36
+12,Introduction,34
+12,Core Concepts,59
+13,Summary,24
+13,Advanced Techniques,44
+13,Best Practices,59
+13,Summary,48
+13,Core Concepts,26
+14,Case Study,40
+14,Advanced Techniques,23
+14,Advanced Techniques,44
+14,Core Concepts,49
+14,Case Study,53
+14,Core Concepts,36
+15,Best Practices,27
+15,Best Practices,40
+15,Case Study,30
+15,Core Concepts,50
+16,Case Study,37
+16,Best Practices,43
+16,Introduction,55
+16,Case Study,57
+16,Hands-on Demo,30
+16,Hands-on Demo,26
+17,Case Study,27
+17,Core Concepts,51
+17,Best Practices,38
+17,Hands-on Demo,44
+17,Best Practices,55
+18,Hands-on Demo,21
+18,Hands-on Demo,33
+18,Case Study,27
+18,Hands-on Demo,49
+19,Hands-on Demo,56
+19,Summary,43
+19,Case Study,60
+19,Core Concepts,54
+19,Summary,31
+19,Hands-on Demo,32
+19,Best Practices,32
+19,Hands-on Demo,38
+20,Core Concepts,57
+20,Introduction,46
+20,Introduction,33
+20,Best Practices,24
+20,Core Concepts,52
+20,Best Practices,27
+20,Summary,35
+20,Advanced Techniques,27
+21,Hands-on Demo,26
+21,Core Concepts,57
+21,Advanced Techniques,20
+21,Hands-on Demo,23
+21,Case Study,25
+21,Hands-on Demo,40
+21,Best Practices,20
+21,Best Practices,46
+22,Advanced Techniques,57
+22,Best Practices,31
+22,Introduction,56
+22,Core Concepts,31
+22,Summary,34
+23,Core Concepts,27
+23,Hands-on Demo,57
+23,Advanced Techniques,52
+24,Advanced Techniques,44
+24,Case Study,21
+24,Introduction,58
+24,Summary,47
+24,Introduction,37
+25,Core Concepts,47
+25,Hands-on Demo,21
+25,Introduction,23
+25,Case Study,59
+25,Best Practices,44
+25,Core Concepts,43
+25,Advanced Techniques,43
+26,Core Concepts,42
+26,Hands-on Demo,36
+26,Best Practices,29
+26,Core Concepts,30
+26,Core Concepts,29
+26,Introduction,57
+26,Summary,27
+27,Hands-on Demo,52
+27,Best Practices,56
+27,Introduction,55
+27,Case Study,46
+28,Best Practices,20
+28,Advanced Techniques,23
+28,Core Concepts,47
+28,Core Concepts,35
+28,Summary,20
+28,Core Concepts,42
+29,Summary,25
+29,Summary,50
+29,Best Practices,44
+29,Case Study,41
+30,Summary,22
+30,Core Concepts,23
+30,Case Study,52
+30,Core Concepts,22
+30,Best Practices,31
+30,Core Concepts,24
+31,Introduction,41
+31,Summary,25
+31,Hands-on Demo,25
+31,Case Study,39
+31,Introduction,52
+32,Core Concepts,29
+32,Core Concepts,39
+32,Case Study,40
+32,Introduction,52
+32,Case Study,30
+32,Best Practices,22
+33,Introduction,30
+33,Summary,60
+33,Summary,23
+33,Hands-on Demo,52
+33,Introduction,41
+33,Introduction,26
+34,Advanced Techniques,32
+34,Best Practices,45
+34,Core Concepts,34
+34,Advanced Techniques,33
+34,Case Study,36
+34,Advanced Techniques,49
+34,Introduction,35
+35,Introduction,34
+35,Advanced Techniques,45
+35,Introduction,32
+35,Case Study,25
+35,Best Practices,38
+35,Hands-on Demo,41
+36,Hands-on Demo,41
+36,Core Concepts,22
+36,Case Study,46
+36,Advanced Techniques,47
+37,Core Concepts,25
+37,Introduction,23
+37,Best Practices,32
+38,Advanced Techniques,26
+38,Case Study,52
+38,Advanced Techniques,51
+38,Hands-on Demo,32
+38,Introduction,51
+39,Summary,48
+39,Hands-on Demo,24
+39,Best Practices,50
+39,Core Concepts,29
+39,Introduction,50
+39,Case Study,28
+39,Advanced Techniques,21
+40,Core Concepts,57
+40,Advanced Techniques,22
+40,Summary,24
+40,Introduction,40
+40,Core Concepts,23
+40,Core Concepts,57
+40,Advanced Techniques,37
+40,Hands-on Demo,30
+41,Summary,43
+41,Case Study,37
+41,Core Concepts,48
+41,Case Study,31
+41,Introduction,28
+41,Introduction,54
+41,Advanced Techniques,47
+41,Summary,35
+42,Core Concepts,36
+42,Advanced Techniques,27
+42,Introduction,44
+42,Introduction,34
+42,Introduction,29
+42,Introduction,42
+42,Introduction,39
+42,Best Practices,40
+43,Summary,55
+43,Summary,57
+43,Case Study,56
+43,Best Practices,32
+43,Hands-on Demo,53
+43,Core Concepts,50
+43,Advanced Techniques,41
+43,Core Concepts,43
+44,Best Practices,55
+44,Best Practices,34
+44,Best Practices,37
+44,Advanced Techniques,52
+44,Core Concepts,52
+45,Case Study,47
+45,Advanced Techniques,58
+45,Core Concepts,22
+46,Hands-on Demo,37
+46,Introduction,60
+46,Advanced Techniques,48
+46,Summary,43
+46,Best Practices,50
+46,Core Concepts,52
+46,Best Practices,44
+47,Hands-on Demo,38
+47,Case Study,22
+47,Summary,36
+47,Case Study,40
+47,Advanced Techniques,33
+47,Advanced Techniques,48
+47,Summary,42
+48,Hands-on Demo,49
+48,Hands-on Demo,25
+48,Summary,43
+48,Advanced Techniques,33
+48,Summary,34
+48,Summary,47
+48,Advanced Techniques,36
+48,Advanced Techniques,43
+49,Introduction,37
+49,Best Practices,23
+49,Hands-on Demo,43
+49,Case Study,22
+49,Case Study,58
+49,Best Practices,39
+49,Summary,34
+49,Hands-on Demo,41
+50,Introduction,31
+50,Case Study,26
+50,Hands-on Demo,32
+50,Hands-on Demo,51
+50,Introduction,28
+50,Hands-on Demo,46
+51,Hands-on Demo,46
+51,Core Concepts,40
+51,Core Concepts,31
+51,Advanced Techniques,30
+51,Hands-on Demo,37
+51,Introduction,35
+52,Introduction,31
+52,Introduction,47
+52,Case Study,32
+52,Core Concepts,43
+52,Best Practices,27
+53,Hands-on Demo,48
+53,Best Practices,45
+53,Best Practices,36
+54,Case Study,44
+54,Core Concepts,44
+54,Summary,20
+55,Hands-on Demo,27
+55,Summary,40
+55,Hands-on Demo,28
+55,Advanced Techniques,22
+55,Best Practices,32
+55,Core Concepts,21
+55,Best Practices,56
+55,Best Practices,34
+56,Introduction,32
+56,Advanced Techniques,35
+56,Core Concepts,50
+56,Best Practices,56
+56,Hands-on Demo,27
+57,Best Practices,40
+57,Best Practices,58
+57,Introduction,52
+58,Introduction,35
+58,Core Concepts,48
+58,Hands-on Demo,46
+58,Hands-on Demo,20
+58,Core Concepts,27
+58,Hands-on Demo,45
+59,Advanced Techniques,47
+59,Core Concepts,41
+59,Best Practices,35
+59,Case Study,60
+60,Best Practices,55
+60,Summary,39
+60,Hands-on Demo,50
+61,Case Study,49
+61,Introduction,23
+61,Advanced Techniques,44
+61,Case Study,34
+61,Best Practices,59
+61,Core Concepts,58
+61,Summary,50
+61,Best Practices,44
+62,Summary,26
+62,Hands-on Demo,48
+62,Introduction,39
+62,Case Study,33
+63,Introduction,24
+63,Introduction,25
+63,Core Concepts,43
+63,Introduction,47
+63,Case Study,52
+63,Case Study,38
+63,Advanced Techniques,42
+63,Best Practices,43
+64,Core Concepts,26
+64,Best Practices,53
+64,Case Study,27
+64,Hands-on Demo,38
+64,Summary,54
+64,Core Concepts,34
+64,Case Study,42
+64,Summary,41
+65,Best Practices,55
+65,Best Practices,37
+65,Hands-on Demo,25
+65,Best Practices,43
+65,Summary,27
+65,Hands-on Demo,54
+65,Advanced Techniques,40
+66,Hands-on Demo,27
+66,Hands-on Demo,30
+66,Case Study,21
+66,Hands-on Demo,34
+67,Introduction,30
+67,Advanced Techniques,32
+67,Advanced Techniques,54
+67,Case Study,43
+67,Case Study,36
+67,Core Concepts,31
+68,Case Study,30
+68,Summary,43
+68,Summary,23
+68,Introduction,44
+68,Core Concepts,40
+68,Advanced Techniques,45
+68,Advanced Techniques,22
+68,Case Study,54
+69,Summary,32
+69,Best Practices,31
+69,Introduction,31
+69,Advanced Techniques,31
+69,Hands-on Demo,52
+69,Core Concepts,59
+70,Advanced Techniques,52
+70,Summary,40
+70,Hands-on Demo,55
+70,Best Practices,28
+71,Case Study,59
+71,Introduction,28
+71,Hands-on Demo,39
+71,Hands-on Demo,32
+71,Best Practices,59
+71,Summary,56
+71,Summary,34
+71,Advanced Techniques,48
+72,Summary,40
+72,Best Practices,28
+72,Summary,43
+72,Case Study,48
+72,Best Practices,30
+72,Summary,23
+72,Advanced Techniques,26
+72,Introduction,59
+73,Introduction,57
+73,Advanced Techniques,52
+73,Advanced Techniques,29
+73,Hands-on Demo,24
+73,Core Concepts,53
+73,Introduction,21
+73,Best Practices,34
+74,Introduction,49
+74,Best Practices,35
+74,Summary,31
+74,Core Concepts,40
+74,Advanced Techniques,41
+74,Best Practices,21
+75,Hands-on Demo,43
+75,Introduction,24
+75,Introduction,59
+75,Advanced Techniques,27
+76,Core Concepts,38
+76,Advanced Techniques,37
+76,Hands-on Demo,25
+77,Case Study,58
+77,Summary,37
+77,Best Practices,20
+77,Summary,23
+78,Hands-on Demo,34
+78,Hands-on Demo,25
+78,Advanced Techniques,55
+78,Case Study,59
+78,Best Practices,29
+78,Case Study,54
+78,Case Study,44
+78,Summary,49
+79,Core Concepts,37
+79,Hands-on Demo,52
+79,Core Concepts,28
+79,Advanced Techniques,39
+80,Introduction,34
+80,Introduction,33
+80,Case Study,43
+80,Case Study,52
+80,Hands-on Demo,52
+80,Case Study,21
+81,Summary,42
+81,Case Study,33
+81,Core Concepts,42
+81,Case Study,45
+81,Core Concepts,53
+81,Summary,29
+81,Case Study,31
+82,Best Practices,33
+82,Summary,32
+82,Advanced Techniques,35
+82,Hands-on Demo,56
+82,Summary,26
+82,Hands-on Demo,37
+83,Advanced Techniques,27
+83,Case Study,38
+83,Case Study,57
+83,Best Practices,33
+83,Hands-on Demo,47
+84,Summary,39
+84,Hands-on Demo,28
+84,Best Practices,55
+85,Best Practices,60
+85,Core Concepts,30
+85,Hands-on Demo,26
+85,Summary,47
+85,Summary,49
+85,Case Study,47
+85,Core Concepts,26
+86,Case Study,31
+86,Best Practices,29
+86,Hands-on Demo,34
+86,Advanced Techniques,47
+87,Hands-on Demo,29
+87,Introduction,31
+87,Advanced Techniques,56
+87,Summary,32
+87,Core Concepts,50
+87,Best Practices,54
+88,Case Study,52
+88,Case Study,26
+88,Introduction,32
+88,Case Study,22
+89,Best Practices,26
+89,Best Practices,47
+89,Core Concepts,39
+89,Advanced Techniques,58
+89,Core Concepts,56
+89,Core Concepts,42
+89,Hands-on Demo,26
+89,Case Study,24
+90,Core Concepts,39
+90,Core Concepts,36
+90,Best Practices,26
+90,Introduction,56
+90,Summary,23
+90,Core Concepts,35
+90,Core Concepts,25
+90,Hands-on Demo,36
+91,Hands-on Demo,51
+91,Core Concepts,36
+91,Introduction,39
+92,Core Concepts,43
+92,Core Concepts,46
+92,Introduction,34
+92,Summary,20
+92,Introduction,41
+92,Advanced Techniques,26
+93,Advanced Techniques,51
+93,Summary,21
+93,Core Concepts,33
+93,Hands-on Demo,22
+93,Hands-on Demo,44
+93,Case Study,54
+94,Core Concepts,39
+94,Case Study,24
+94,Best Practices,52
+94,Advanced Techniques,48
+94,Advanced Techniques,47
+94,Best Practices,53
+95,Hands-on Demo,31
+95,Summary,46
+95,Summary,46
+95,Core Concepts,23
+95,Best Practices,33
+95,Case Study,56
+96,Best Practices,52
+96,Summary,27
+96,Introduction,43
+96,Case Study,20
+97,Hands-on Demo,60
+97,Case Study,60
+97,Core Concepts,32
+98,Summary,28
+98,Summary,39
+98,Case Study,60
+98,Advanced Techniques,33
+98,Core Concepts,45
+98,Advanced Techniques,20
+99,Hands-on Demo,21
+99,Case Study,48
+99,Advanced Techniques,40
+99,Best Practices,58
+99,Core Concepts,41
+99,Introduction,28
+99,Introduction,25
+99,Hands-on Demo,22
+100,Hands-on Demo,54
+100,Advanced Techniques,30
+100,Introduction,25
+100,Advanced Techniques,24
+100,Hands-on Demo,21
+101,Hands-on Demo,31
+101,Best Practices,45
+101,Advanced Techniques,52
+101,Advanced Techniques,46
+101,Introduction,27
+101,Best Practices,49
+101,Hands-on Demo,51
+101,Case Study,44
+102,Case Study,34
+102,Case Study,32
+102,Hands-on Demo,50
+103,Advanced Techniques,44
+103,Case Study,53
+103,Summary,55
+103,Hands-on Demo,27
+103,Best Practices,22
+103,Advanced Techniques,48
+103,Hands-on Demo,32
+103,Core Concepts,48
+104,Summary,59
+104,Hands-on Demo,43
+104,Core Concepts,58
+104,Best Practices,30
+104,Case Study,29
+104,Hands-on Demo,35
+105,Best Practices,21
+105,Case Study,25
+105,Introduction,59
+106,Advanced Techniques,39
+106,Best Practices,48
+106,Advanced Techniques,24
+106,Introduction,26
+106,Case Study,39
+106,Best Practices,21
+107,Hands-on Demo,28
+107,Summary,50
+107,Introduction,21
+107,Introduction,29
+107,Best Practices,34
+107,Advanced Techniques,25
+108,Best Practices,32
+108,Best Practices,53
+108,Introduction,28
+109,Summary,46
+109,Case Study,36
+109,Best Practices,35
+109,Hands-on Demo,23
+109,Best Practices,26
+110,Advanced Techniques,46
+110,Hands-on Demo,58
+110,Introduction,27
+110,Introduction,47
+110,Introduction,56
+110,Advanced Techniques,33
+110,Best Practices,37
+111,Case Study,38
+111,Core Concepts,56
+111,Case Study,21
+111,Hands-on Demo,49
+111,Best Practices,40
+111,Hands-on Demo,55
+111,Hands-on Demo,60
+111,Advanced Techniques,52
+112,Introduction,53
+112,Case Study,41
+112,Core Concepts,43
+113,Hands-on Demo,52
+113,Summary,52
+113,Hands-on Demo,39
+114,Core Concepts,46
+114,Best Practices,37
+114,Best Practices,58
+114,Core Concepts,47
+114,Case Study,36
+115,Summary,33
+115,Core Concepts,55
+115,Advanced Techniques,28
+115,Summary,55
+115,Introduction,25
+115,Hands-on Demo,31
+115,Hands-on Demo,36
+116,Best Practices,32
+116,Case Study,49
+116,Core Concepts,26
+116,Hands-on Demo,26
+116,Core Concepts,50
+116,Advanced Techniques,53
+116,Advanced Techniques,46
+116,Introduction,32
+117,Case Study,47
+117,Core Concepts,43
+117,Advanced Techniques,55
+117,Advanced Techniques,38
+117,Case Study,56
+117,Case Study,52
+118,Core Concepts,44
+118,Core Concepts,52
+118,Summary,41
+118,Best Practices,49
+118,Introduction,25
+118,Core Concepts,24
+119,Best Practices,31
+119,Summary,43
+119,Summary,37
+119,Summary,49
+119,Case Study,41
+119,Hands-on Demo,58
+119,Hands-on Demo,31
+119,Summary,54
+120,Core Concepts,30
+120,Introduction,29
+120,Best Practices,53
+120,Core Concepts,50
+120,Hands-on Demo,26
+120,Best Practices,29
+120,Core Concepts,55
+120,Core Concepts,41
