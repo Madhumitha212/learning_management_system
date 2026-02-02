@@ -1,3 +1,7 @@
+/*Join choice: Used LEFT JOIN with Lessons so courses without lessons are still included.
+Assumption: Each enrollment row represents one user per course.
+Large dataset behavior: Aggregations may be heavy, but indexing on course_id helps.*/
+
 /*For each course, calculate:
 1.Total number of enrolled users
 2.Total number of lessons
@@ -13,6 +17,10 @@ LEFT JOIN Lessons l
     ON e.course_id = l.course_id
 GROUP BY e.course_id;
 
+/*Join choice: INNER JOIN ensures only users with activity are counted.
+Assumption: Activity count reflects engagement level.
+Large dataset behavior: ORDER BY with COUNT is efficient if user_id is indexed.*/
+
 -- 2.Identify the top three most active users based on total activity count.
 SELECT TOP 3
 u.user_id,
@@ -23,6 +31,10 @@ INNER JOIN UserActivity AS ua
 ON u.user_id = ua.user_id
 GROUP BY u.user_id, u.user_name
 ORDER BY total_active_count DESC
+
+/*Join choice: JOINs link users, courses, lessons; LEFT JOIN with activity to include incomplete lessons.
+Assumption: Completion is based on activity_type = 'complete'.
+Large dataset behavior: DISTINCT counts may be expensive, indexing lesson_id helps.*/
 
 --3.Calculate course completion percentage per user based on lesson activity.
 SELECT 
@@ -43,6 +55,9 @@ WHERE e.status = 'active'
 GROUP BY u.user_id, u.user_name, c.course_id, c.course_name
 ORDER BY c.course_id, u.user_id;
 
+/*Join choice: CTEs separate course averages and user averages, then joined.
+Assumption: Average score comparison is valid across submissions.
+Large dataset behavior: Aggregations scale with indexes on assessment_id.*/
 
 -- 4.Find users whose average assessment score is higher than the course average.
 WITH CTE_AVG_SCORE AS(
@@ -78,7 +93,9 @@ INNER JOIN user_avg_score AS ua
 ON ua.course_id = cavg.course_id
 WHERE ua.user_avg > cavg.course_avg
 
-
+/*Join choice: JOINs ensure lessons with activity are included; NOT EXISTS filters assessments.
+Assumption: No submissions = assessments never attempted.
+Large dataset behavior: NOT EXISTS can be costly, but indexing course_id improves speed.*/
 
 --5.List courses where lessons are frequently accessed but assessments are never attempted.
 SELECT DISTINCT c.course_id, c.course_name 
@@ -92,6 +109,9 @@ WHERE NOT EXISTS (
     ON a.assessment_id = s.assessment_id 
     WHERE a.course_id = c.course_id );
 
+/*Join choice: JOINs link submissions, users, assessments, courses.
+Assumption: SUM of scores represents performance.
+Large dataset behavior: Window functions scale well with indexes on course_id.*/
 
 -- 6.Rank users within each course based on their total assessment score.
 WITH UserScores AS (
@@ -114,6 +134,9 @@ SELECT
     RANK() OVER (PARTITION BY course_id ORDER BY total_score DESC) AS user_rank
 FROM UserScores;
 
+/*Join choice: JOINs connect activity, users, lessons, courses; ROW_NUMBER finds first access.
+Assumption: Earliest timestamp = first lesson accessed.
+Large dataset behavior: Window functions may be heavy but efficient with proper indexing.*/
 
 -- 7.Identify the first lesson accessed by each user for every course.
 WITH LessonAccess AS (
@@ -144,6 +167,10 @@ SELECT
     activity_timestamp AS first_access_time
 FROM LessonAccess
 WHERE rn = 1;
+
+/*Join choice: CTEs group distinct dates, rank them, and detect streaks.
+Assumption: Consecutive days = continuous engagement.
+Large dataset behavior: DATE functions may be costly, indexing activity_timestamp helps.*/
 
 --8.Find users with activity recorded on at least five consecutive days.
 WITH DistinctActivityDates AS (
@@ -177,6 +204,10 @@ GROUP BY user_id, streak_group
 HAVING COUNT(*) >= 5
 ORDER BY user_id, streak_start;
 
+/*Join choice: JOINs link users and enrollments; NOT EXISTS checks missing submissions.
+Assumption: No submission = user never attempted assessments.
+Large dataset behavior: NOT EXISTS scales with indexes on user_id and course_id.*/
+
 --9.Retrieve users who enrolled in a course but never submitted any assessment.
 SELECT u.user_id, u.user_name, u.email, e.course_id
 FROM Users u
@@ -189,6 +220,10 @@ WHERE NOT EXISTS (
       AND a.course_id = e.course_id
 );
 
+/*Join choice: JOINs link courses and enrollments; HAVING compares counts with submissions.
+Assumption: Every enrolled user must have at least one submission.
+Large dataset behavior: COUNT comparisons may be heavy, indexing course_id improves performance.*/
+
 --10.List courses where every enrolled user has submitted at least one assessment.
 SELECT c.course_id, c.course_name
 FROM Courses c
@@ -200,31 +235,6 @@ HAVING COUNT(*) = (
     JOIN Assessments a ON s.assessment_id = a.assessment_id
     WHERE a.course_id = c.course_id
 );
-
-
-
-
-
-
-
-
-
-
-USE lms;
-
-SELECT * FROM Users
-
-SELECT * FROM Courses
-
-SELECT * FROM Enrollments
-
-SELECT * FROM Lessons
-
-SELECT * FROM UserActivity
-
-SELECT * FROM Assessments
-
-SELECT * FROM AssessmentSubmissions
 
 
 
